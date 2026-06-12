@@ -25,7 +25,7 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: YOUR_SERVER_IP
+          host: github.com
           username: ubuntu
           key: ${{ secrets.SSH_KEY }}
           script: |
